@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D32C06DA-DC02-C4AD-E331-0FDC60819F0B}</ProjectGuid>
+	<ProjectGuid>{5E831D29-24AA-CAD1-044B-BA03CBCB9C92}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-UnityScript-Editor</AssemblyName>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
 	<BaseDirectory>Assets</BaseDirectory>
@@ -46,7 +46,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\autosnap.js" />
+     <Compile Include="Assets\UnIDE\Editor\EditorCore\UIDEAssetModProcessor.cs" />
+     <Compile Include="Assets\UnIDE\Editor\EditorCore\UIDEAssetPostProcessor.cs" />
+     <Compile Include="Assets\UnIDE\Editor\EditorCore\UIDEEditorWindow.cs" />
+     <Compile Include="Assets\UnIDE\Editor\EditorCore\UIDEFontProcessor.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\AutoComplete\AutoComplete.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\AutoComplete\UIDEAutoCompleteData.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\ErrorTracking\ErrorTracking.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\FindAndReplace\FindAndReplace.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\InlineErrorHighlighter\InlineErrorHighlighter.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\SyntaxRules\CSharp\CSKeywords.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\SyntaxRules\SyntaxRuleCSharpUnityscript.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\SyntaxRules\SyntaxRuleGeneric.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\SyntaxRules\Unityscript\USKeywords.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Plugins\UnityAPISearch\UnityAPISearch.cs" />
+     <Compile Include="Assets\UnIDE\Editor\Themes\SlateDark\ThemeSlateDark.cs" />
      <None Include="Assets\UnIDE\Readme.txt" />
  <Reference Include="UnIDE">
  <HintPath>C:/Users/Justin/Documents/GitHub/BearGame/BearGame/Assets/UnIDE/Editor/UnIDE.dll</HintPath>

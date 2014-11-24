@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\BaconGameJam08\Assets\Scripts\playerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerScript.cs">
     <Files>
-      <File FileName="..\BaconGameJam08\Assets\Scripts\gameLogic.cs" Line="427" Column="30" />
-      <File FileName="..\BaconGameJam08\Assets\Scripts\playerScript.cs" Line="119" Column="55" />
+      <File FileName="Assets\Scripts\PlayerScript.cs" Line="499" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
